@@ -1,12 +1,12 @@
 {
-  "homepage": "http://Nakul1259.github.io/Movieapp",
+  "homepage": "http://Nakul1259.github.io/Movie_APP_React_Typescript",
   "name": "react-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.tsx",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "serve": "webpack serve --mode development",
     "build": "webpack --mode production",
     "start": "webpack serve"
