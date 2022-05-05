@@ -1,0 +1,98 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap");
+*,
+*::before,
+*::after {
+    
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.card{
+
+    max-width: 400px;
+    max-height: 900px;
+    overflow: hidden;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    }
+
+.container{
+    
+    padding-top: 20px;
+    border-radius: 15px;
+    padding: 2px 16px;
+    width: auto;
+
+    
+ }
+
+.inline{
+    margin-top: 20px;
+    margin-left: 10px;
+    min-width: 40%;
+}
+
+.inline h5{
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.inline h4{
+    font-weight: normal;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+.Card__img__container {
+
+    overflow: hidden;
+    height: 150px;
+    display: block;
+    width: 60%;    
+
+}
+
+
+
+.Card__img__container img{
+    width: 100%;
+    object-fit: cover;
+    padding-right: 5px;    
+    height:100%;    
+    
+}
+
+
+
+
+.Card__img__text{
+    height: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5px;
+}
+
+
+
+.card__btn{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;   
+    cursor: pointer;    
+}
+
+.card__btn:hover{
+    background: rgba(27,156,252,0.1);
+}
+
+.card__description{
+    margin-top: 20px;
+}
+
